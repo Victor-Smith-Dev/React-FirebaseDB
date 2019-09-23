@@ -1,0 +1,42 @@
+{
+  "name": "my-awesome-app",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://github.com/blazinger/curso-react.git",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/blazinger/curso-react.git"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "firebase": "^5.10.1",
+    "pure-css": "^1.0.4",
+    "react": "^16.8.6",
+    "react-datepicker": "^2.5.0",
+    "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "2.1.8",
+    "react-select": "^2.4.3",
+    "uid": "^0.0.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d build" 
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
